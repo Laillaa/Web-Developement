@@ -1,0 +1,40 @@
+<!DOCTYPE html> <!-- specifie la version de  HTML que le document utilise (Ici on utilise le 5) -->
+<html>
+    <head>
+        <title>Mon premier site web</title> <!-- Titre -->
+        <meta charset="utf-8" content="Mon site perso"/> 
+        <link href = "contact.css" rel="stylesheet" type="text/css"/> <!-- rel => relation -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="nav-bar"> <!--cree une bare de navigation-->
+                <ul>
+                    <li><a href="index.html#apropos">A propos de moi</a></li>
+                    <li><a href="index.html#Calendrier">Mon Calendrier</a></li>  
+                </ul>
+            </nav>
+        </header>
+
+        <div class="form"  id="FORM">
+            <h2>Contactez Laila</h2>
+            <form>
+                <label><i class="fa fa-user"></i> Votre nom :</label><br/>
+                <input value="" placeholder="Jane DOE"/><br/>
+                <label><i class="fa fa-envelope"></i> Votre email :</label><br/>
+                <input type="email" value="" placeholder="jane.doe@yahoo.com"/><br/>
+                <label><i class="fa fa-align-justify"></i> Votre message : </label><br/> <!-- content of el 7eta dih =>Votre message: -->
+                <textarea> </textarea><br/>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+        <footer>
+            <ul>
+                <li><a href="contact.html">Contactez Laila</a></li>
+                <li>&copy; 2024 Laila Ibrahim</li>
+            </ul>
+        </footer>
+    </body>
+</html>
